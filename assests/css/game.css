@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Silkscreen:wght@400;700&display=swap');
 
 body {
-
+    background-color: #f4e04d;
+    border: 2px solid #444444;
+    padding: 10px;
+    cursor: pointer;
 }
 
 button {
-
+    background-color: aqua;
 }
 
 .game-container {
@@ -17,4 +20,25 @@ button {
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+.card-display {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    background-color: #ffffff;
+    border: 2px solid #444444;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.card-hidden {
+    background-color: #ff4d4d;
 }
