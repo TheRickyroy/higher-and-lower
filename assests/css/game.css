@@ -42,6 +42,25 @@ button {
     background-color: #ff4d4d;
 }
 
+.arrow {
+    width: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.arrow-up {
+    background-color: #6fcf97;
+}
+
+.arrow-down {
+    background-color: #56ccf2;
+}
+
 .score-section {
     margin-top: 30px;
     font-size: 16px;
