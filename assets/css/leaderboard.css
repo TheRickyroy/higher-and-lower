@@ -29,7 +29,7 @@ border: 1px solid #fff;
 
 
 .area{
-    background: #4e54c8;  
+    background: var(--grey);  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
     height:100vh;
@@ -52,7 +52,7 @@ border: 1px solid #fff;
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 255, 255, 0.2);
+    /* background: rgba(255, 255, 255, 0.2); */
     animation: animate 25s linear infinite;
     bottom: -150px;
     
@@ -60,8 +60,8 @@ border: 1px solid #fff;
 
 .circles li:nth-child(1){
     left: 25%;
-    width: 80px;
-    height: 80px;
+    width: 10px;
+    height: 10px;
     animation-delay: 0s;
 }
 
@@ -126,13 +126,13 @@ border: 1px solid #fff;
     animation-duration: 35s;
 }
 
-.circles li:nth-child(10){
+/* .circles li:nth-child(10){
     left: 85%;
     width: 150px;
     height: 150px;
     animation-delay: 0s;
     animation-duration: 11s;
-}
+} */
 
 
 
