@@ -1,30 +1,14 @@
 // Assigning variables
-Let score = 0;
+let currentNumber = Math.floor(Math.random() * 10) + 1;
+let score = 0;
+console.log(currentNumber);
 
-// Generate a random number between 1 and 10 and displays
-document.getElementById("btn-start").document.addEventListener('click', generateRandom)
+// On loading generates random number
+object.addEventListener("load", (generateRandom));
 
 function generateRandom() {
-    let numberDisplay = document.getElementById(“display”);
-    let currentNumber = Math.floor(Math.random() * 10) + 1;
-    let hiddenNumber = Math.floor(Math.random() * 10) + 1;  
-    console.log(currentNumber)
-    numberDisplay.innerHTML = currentNumber
-    }
-
-    // GuessedCorrectly message
-const guessedCorrectly = “Correct!”;
-
-// Guessed wrong message
-const guessedWrong = “Incorrect! Try again?”;
-    
-// Higher 
-let isHigher = previous number >= previousNumber;
-let isLower = randomNumber <= previousNumber;
-
-if (userChoice === ‘higher’ && isHigher) || (userChoice === ‘lower’ && isLower); {
-return guessedCorrectly ;
-currentNumber += hiddenNumber
-Score ++
-} else { return guessedWrong;
+    let numberDisplay = document.getElementById("current-card").innerContext;
+    numberDisplay = currentNumber;
+    console.log(numberDisplay);
 }
+
