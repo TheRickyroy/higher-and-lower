@@ -1,0 +1,23 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto !important;
+}
+
+form {
+    width: 70%;
+}
+
+.message-box {
+
+}
+
+.name-box {
+
+}
+
+.email-box {
+   
+}
