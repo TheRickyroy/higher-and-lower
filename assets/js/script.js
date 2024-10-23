@@ -28,3 +28,5 @@ currentNumber += hiddenNumber
 Score ++
 } else { return guessedWrong;
 }
+
+
