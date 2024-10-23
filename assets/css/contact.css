@@ -1,3 +1,10 @@
+#header {
+    display: block;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+}
+
 .form-container {
     display: flex;
     justify-content: center;
