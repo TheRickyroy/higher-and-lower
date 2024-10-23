@@ -1,2 +1,20 @@
+.table {
+    --bs-table-bg: #0a1627;
+    --bs-table-color: #FFF;
+    opacity: 0.5;    
+}
 
+th, td, tbody, thead {
+border: 1px solid #fff;
+}
+
+.leader-header {
+    color: #FFF;
+}
+
+.leaderboard {
+    margin-top: 10%;
+    text-align: center;
+    color: #fe0039;
+}
 
