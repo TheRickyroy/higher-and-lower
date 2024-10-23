@@ -15,7 +15,7 @@ border: 1px solid #fff;
 .leaderboard {
 
     text-align: center;
-    color: #fe0039;
+    text-transform: uppercase;
     z-index: 2;
 }
 
@@ -53,7 +53,7 @@ border: 1px solid #fff;
     width: 20px;
     height: 20px;
     /* background: rgba(255, 255, 255, 0.2); */
-    animation: animate 25s linear infinite;
+    animation: animate 15s linear infinite;
     bottom: -150px;
     
 }
@@ -126,29 +126,24 @@ border: 1px solid #fff;
     animation-duration: 35s;
 }
 
-/* .circles li:nth-child(10){
+.circles li:nth-child(10){
     left: 85%;
     width: 150px;
     height: 150px;
     animation-delay: 0s;
     animation-duration: 11s;
-} */
-
-
+}
 
 @keyframes animate {
 
     0%{
         transform: translateY(0) rotate(0deg);
         opacity: 1;
-        border-radius: 0;
     }
 
     100%{
         transform: translateY(-1000px) rotate(720deg);
         opacity: 0;
-        border-radius: 50%;
     }
 
 }
-
