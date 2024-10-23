@@ -20,62 +20,60 @@
 </head>
 
 <body>
-
   <!-- Nav -->
-  <header id="header">
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
-      <div class="container-xxl">
-        <a href="index.html" class="navbar-brand-text heading fw-bold" aria-label="CTRL ALT ELITE - Homepage">CTRL ALT
-          ELITE</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="nav navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html" aria-label="Home">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"
-                aria-label="Higher or lower game">Higher or Lower</a>
-              <ul class="dropdown-menu">
-                <li><a class="nav-link" href="game.html" aria-label="Play Higher or lower">Play Game</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="nav-link" href="rules.html" aria-label="Game rules page">Rules</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="nav-link" href="leaderboard.html" aria-label="Game leader board page">Leader Board</a>
-                </li>
-              </ul>
-            </li>
-            <li><a class="nav-link" href="#" aria-label="Contact Us">Contact Us</a></li>
-          </ul>
-        </div>
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+    <div class="container-xxl">
+      <a href="#" class="navbar-brand-text heading fw-bold" aria-label="CTRL ALT ELITE - Homepage">CTRL ALT ELITE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" aria-label="Home">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"
+              aria-label="Higher or lower game">Higher or Lower</a>
+            <ul class="dropdown-menu">
+              <li><a class="nav-link" href="game.html" aria-label="Play Higher or lower">Play Game</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="nav-link" href="rules.html" aria-label="Game rules page">Rules</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="nav-link" href="leaderboard.html" aria-label="Game leader board page">Leader Board</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link" href="#" aria-label="Contact Us">Contact Us</a></li>
+        </ul>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
   <!-- Main -->
-  <div class="container form-container">
-    <form>
-      <div class="row mb-3 name-box">
-        <label for="exampleFormControlInput1" class="form-label">Name :</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter name">
-      </div>
-      <div class="row mb-3 email-box">
-        <label for="exampleFormControlInput1" class="form-label">Email address :</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="row mb-3 message-box">
-        <label for="exampleFormControlTextarea1" class="form-label">Message :</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-    </form>
-  </div>
+  <main>
+    <div class="container col-10 col-md-6 justify-content-center">
+      <form method="post" action="https://formdump.codeinstitute.net/">
+        <div class="mb-3 name-box">
+          <label for="name" class="form-label">Name :</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter Name">
+        </div>
+        <div class="mb-3 email-box">
+          <label for="email" class="form-label">Email Address :</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3 message-box">
+          <label for="message" class="form-label">Message :</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-red" aria-label="Send">Send</button>
+      </form>
+    </div>
+  </main>
 
   <!-- Footer -->
   <footer>
@@ -98,7 +96,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>
