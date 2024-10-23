@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Silkscreen:wght@400;700&display=swap');
 
-body {
+/* body {
     background-color: #f4e04d;
     border: 2px solid #444444;
     padding: 10px;
-}
+} */
 
 button {
-    background-color: aqua;
+    background-color: #5aa5d9;
 }
 
 .game-container {

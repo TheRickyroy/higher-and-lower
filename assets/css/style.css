@@ -48,6 +48,10 @@ input {
   text-transform: uppercase;
 }
 
+.text-center {
+  margin-bottom: 0;
+}
+
 .btn {
     font-family: "Silkscreen", sans-serif;
     text-transform: uppercase;
@@ -93,7 +97,34 @@ input {
 footer {
     background-color: var(--blue-dark);
     padding-top: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
+
+/* Leaderboard */
+
+.table {
+  --bs-table-bg: #0a1627;
+  --bs-table-color: #FFF;
+  opacity: 0.5;    
+}
+
+th, td, tbody, thead {
+border: 1px solid #fff;
+}
+
+.leader-header {
+  color: #FFF;
+}
+
+.leaderboard {
+
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
 
 /* Buttons */
 .btn-red {
