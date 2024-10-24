@@ -297,11 +297,6 @@ Your points will continue to increment for every correct guess. On an incorrect 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
-## Built With
-
-<hr>
-<p align="right"><a href="#">Back To Top</a></p>
-
 ## Future Features
 
 ### Potential Features to Include:
@@ -309,6 +304,11 @@ Your points will continue to increment for every correct guess. On an incorrect 
 - A limited number of tries before the game is over
 - A score-tracking system
 - The ability to play against the computer
+
+<hr>
+<p align="right"><a href="#">Back To Top</a></p>
+
+## Built With
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
