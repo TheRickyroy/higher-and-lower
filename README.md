@@ -19,6 +19,11 @@ The live project can be found here: <a href="https://therickyroy.github.io/highe
 * [Project Outline](#project-outline)
 * [UX Design](#ux-design)
   - [User Stories](#user-stories)
+    - [External User's Goal](#external-users-goal)
+    - [Site Owner's Goal](#site-owners-goal)
+    - [User](#user)
+    - [Owner](#owner)
+    - [Developer](#developer)
   - [Colors](#colors)
     - [Main Palette](#main-palette)
     - [Contrast](#contrast)
@@ -26,7 +31,6 @@ The live project can be found here: <a href="https://therickyroy.github.io/highe
   - [Imagery](#imagery)
   - [Wireframes](#wireframes)
 * [Features](#features)
-  - [General Features](#general-features)
     - [Navigation](#navigation)
     - [Pages](#pages)
       - [Home](#home)
@@ -35,16 +39,25 @@ The live project can be found here: <a href="https://therickyroy.github.io/highe
       - [Leaderboard](#leaderboard)
       - [Contact](#contact)
     - [Footer](#footer)
-    - [Links and Buttons](#links-and-buttons)
   - [Resnposive Design](#responsive-design)
-  - [Design](#responsive-design)
+  - [Future Features](#future-features)
 * [Built With](#built-with)
   - [Technology and Languages](#technologies-and-languages)
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Tools & Programs](#tools-and-programs)
 * [Development](#deployment)
+  - [Ideation](#ideation)
+  - [Collaboration Tools](#collaboration-tools)
+* [Deployment](#deployment)
+ - [Early Deployment](#early-deployment)
+ - [Cloning & Branching for Group Members](#cloning-and-branching-for-group-members)
+ - [Commit Guidelines](#commit-guidelines)
+ - [Pulling updates Regularly](#pulling-updates-regularly)
+ - [Continuous Integration](#continuous-integration)
+ - [Deployment Information](#deployment-information)
 * [Testing](#testing)
- - [Bugs](#bugs)
+  - [Lighthouse Results](#lighthouse-results)
+  - [Bugs](#bugs)
 * [Credits](#credits)
   - [Code](#code)
   - [Media](#media)
@@ -63,6 +76,12 @@ The live project can be found here: <a href="https://therickyroy.github.io/highe
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## User Stories
+
+### External User’s Goal:
+The site’s users want to play an online game that has elements of chance.
+
+### Site Owner's Goal:
+The site’s goal is to provide a challenging game with increasing levels of difficulty to entertain online users.
 
 ### User:
 
@@ -174,19 +193,13 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 ![Mobile contact page](docs/images/Mobile-High-Fidelity-contact%20copy.png)
 ![Web rules page wireframe](docs/images/High-Fidelity-rules-web.png)
 ![Mobile rules page wireframe](docs/images/Mobile-High-Fidelity-rules%20copy%202.png)
+![Web leaderboard page wireframe](docs/images/High-Fidelity-leaderboard-web.png)
+![Mobile leaderboard page wireframe](docs/images/Mobile-High-Fidelity-leaderboard.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Features
-
-<hr>
-<p align="right"><a href="#">Back To Top</a></p>
-
-## General Features
-
-<hr>
-<p align="right"><a href="#">Back To Top</a></p>
 
 ## Navigation 
 
@@ -253,7 +266,7 @@ Your points will continue to increment for every correct guess. On an incorrect 
 ## Leaderboard
 
 #### A page to hold your high score 
-![leaderboard page]()
+![leaderboard page](docs/images/Leaderboard%20page.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -268,16 +281,29 @@ Your points will continue to increment for every correct guess. On an incorrect 
 
 ## Footer
 
-<hr>
-<p align="right"><a href="#">Back To Top</a></p>
-
-
-## Links & Buttons
+#### A footer with links to the developers GitHub profiles
+![Footer](docs/images/Footer.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
+
 
 ## Responsive Design
+
+[Am I Responsive](https://ui.dev/amiresponsive)
+
+![Contact page](docs/images/home-responsive-layout.png)
+
+<hr>
+<p align="right"><a href="#">Back To Top</a></p>
+
+## Future Features
+
+### Potential Features to Include:
+- Pattern matching functionality
+- A limited number of tries before the game is over
+- A score-tracking system
+- The ability to play against the computer
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -316,6 +342,26 @@ Your points will continue to increment for every correct guess. On an incorrect 
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Development
+
+### Ideation 
+
+| **Branding** | **Navigation** | **Game Page**                | **Rules Page** | **Leaderboard Page** |
+|--------------|----------------|------------------------------|----------------|----------------------|
+| Logo         | Navbar         | Game Title                   | Game Rules     | Sign in / Sign up    |
+| Game page    |                | Game Start                   | Report a bug   | Leaderboard          |
+| Git links    |                | Score Tracker                |                |                      |
+| Favicon      |                | Game difficulty              |                |                      |
+|              |                | Modals - Rules / how to play |                |                      |
+
+### Collaboration Tools
+
+[Google Drive](https://drive.google.com/) - shared folder for resources, documents and links  
+[Slack](https://slack.com/) - Voice calls, messaging  
+[GitHub](https://github.com/) - Repo, project board  
+[Magma](https://magma.com) - Pre-balsamiq wireframe planning 
+
+<hr>
+<p align="right"><a href="#">Back To Top</a></p>
 
 ## Deployment
 
@@ -401,7 +447,10 @@ Issues - bugs.
 
 logic trying to bring both game page and leaderboard logic together
 
+## Final Validation
 
+### Fail State
+Upon performing a final validation there were errors in both HTML and CSS.
 
 | No. | Bug | Solved | Fix | Solution Credit | Commit no. |
 | --- | ---------------- | ---- | ------------- | -------------- | ------------|
@@ -423,6 +472,16 @@ JavaScript Validation
 | ---- | ---------- | ------ | -------- |
 | script.js | ![script file](docs/images/jshint-validation-2.webp) | none | none |
 | leaderboard.js | ![leaderboard](docs/images/jshint-validation-1.webp) | none | none |
+
+
+![failed HMTL](docs/images/fail-html.png)
+![failed HMTL](docs/images/fail-css.png)
+
+### Pass State
+These errors were corrected for the final code commit.
+
+![failed HMTL](docs/images/success-html.png)
+![failed HMTL](docs/images/success-css.png)
 
 
 
