@@ -287,6 +287,19 @@ Your points will continue to increment for every correct guess. On an incorrect 
 
 ## Testing
 
+### Lighthouse results
+#### Homepage
+![homepage web lighthouse report](docs/images/Lighthouse%20web%20home.png)
+#### Game page
+![game page web lighthouse report](docs/images/Lighthouse%20web%20game.png)
+#### Contact page
+![contact page web lighthouse report](docs/images/Lighthouse%20web%20contact.png)
+#### Rules page
+![rules page web lighthouse report](docs/images/Lighthouse%20web%20rules.png)
+
+#### Leaderboard page
+![Leaderboard page web lighthouse report](docs/images/Lighthouse%20web%20leaderboard.png)
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
