@@ -64,6 +64,12 @@ The live project can be found here: <a href="https://therickyroy.github.io/highe
 
 ## User Stories
 
+### External User’s Goal:
+The site’s users want to play an online game that has elements of chance.
+
+### Site Owner's Goal:
+The site’s goal is to provide a challenging game with increasing levels of difficulty to entertain online users.
+
 ### User:
 
 - As a user, I can view the website's Homepage, so that I can play the game it offers.
@@ -284,10 +290,25 @@ Your points will continue to increment for every correct guess. On an incorrect 
 
 ## Responsive Design
 
+[Am I Responsive](https://ui.dev/amiresponsive)
+
+![Contact page](docs/images/home-responsive-layout.png)
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Built With
+
+<hr>
+<p align="right"><a href="#">Back To Top</a></p>
+
+## Future Features
+
+### Potential Features to Include:
+- Pattern matching functionality
+- A limited number of tries before the game is over
+- A score-tracking system
+- The ability to play against the computer
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -321,6 +342,19 @@ Your points will continue to increment for every correct guess. On an incorrect 
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Development
+
+### Ideation 
+
+| **Branding** | **Navigation** | **Game Page**                | **Rules Page** | **Leaderboard Page** |
+|--------------|----------------|------------------------------|----------------|----------------------|
+| Logo         | Navbar         | Game Title                   | Game Rules     | Sign in / Sign up    |
+| Game page    |                | Game Start                   | Report a bug   | Leaderboard          |
+| Git links    |                | Score Tracker                |                |                      |
+| Favicon      |                | Game difficulty              |                |                      |
+|              |                | Modals - Rules / how to play |                |                      |
+
+<hr>
+<p align="right"><a href="#">Back To Top</a></p>
 
 ## Deployment
 
