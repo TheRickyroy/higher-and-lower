@@ -2,6 +2,7 @@
 
 <p align="center">
 | <a href="https://therickyroy.github.io/higher-and-lower/" target="_blank">Live Project</a> |
+<a href="https://github.com/users/TheRickyroy/projects/1" target="_blank">Project Board</a> |
 </p>
 
 ## Introduction
@@ -151,6 +152,14 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Imagery
+#### Background
+[Halloween Images for background](https://www.freepik.com/free-vector/halloween-neon-sign-collection_5543415.htm#from_view=detail_alsolike)
+
+#### Favicon 
+![Favicon](docs/images/favicon-48x48.png)
+
+#### Logo
+[Logo](docs/images/logo.webp)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -163,7 +172,7 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 ![Mobile game page wireframe](docs/images/Mobile-High-Fidelity-game%20copy%202.png)
 ![Web contact page wireframe](docs/images/High-Fidelity-contact-web.png)
 ![Mobile contact page](docs/images/Mobile-High-Fidelity-contact%20copy.png)
-![Web rules page wireframe](docs/images/High-Fidelity-rules-web%20copy.png)
+![Web rules page wireframe](docs/images/High-Fidelity-rules-web.png)
 ![Mobile rules page wireframe](docs/images/Mobile-High-Fidelity-rules%20copy%202.png)
 
 <hr>
@@ -181,6 +190,10 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 
 ## Navigation 
 
+#### Working links to navigate through the website
+
+![Navbar](docs/images/Navbar.png)
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
@@ -190,11 +203,18 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Home
+#### A welcome page
+
+![Homepage](docs/images/Homepage.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Game
+
+#### The page to play the developed game
+
+![Game page](docs/images/Game%20page.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -228,10 +248,16 @@ Your points will continue to increment for every correct guess. On an incorrect 
 
 ## Leaderboard
 
+#### A page to hold your high score 
+![leaderboard page]()
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Contact
+
+#### A page to provide feedback
+![Contact page](docs/images/Contact%20page.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -335,6 +361,19 @@ Set up a repo using this method and template:
 
 ## Testing
 
+### Lighthouse results
+#### Homepage
+![homepage web lighthouse report](docs/images/Lighthouse%20web%20home.png)
+#### Game page
+![game page web lighthouse report](docs/images/Lighthouse%20web%20game.png)
+#### Contact page
+![contact page web lighthouse report](docs/images/Lighthouse%20web%20contact.png)
+#### Rules page
+![rules page web lighthouse report](docs/images/Lighthouse%20web%20rules.png)
+
+#### Leaderboard page
+![Leaderboard page web lighthouse report](docs/images/Lighthouse%20web%20leaderboard.png)
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
@@ -354,6 +393,8 @@ Set up a repo using this method and template:
 <p align="right"><a href="#">Back To Top</a></p>
 
 ### Media
+
+[Background animations](https://codepen.io/mohaiman/pen/MQqMyo)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
