@@ -160,6 +160,28 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 
 ## Rules
 
+### Objective
+The goal is to correctly guess whether the next card drawn will be higher or lower than the current card.
+
+### Gameplay Instructions
+- **First Card:** The dealer reveals the top card from the shuffled deck and places it face up.
+- **Guessing:** The player must guess whether the next card drawn will be higher or lower than the revealed card.
+  - If the guess is correct, they score a point and continue playing.
+  - If incorrect, they score no points, and your score resets.
+
+### Special Rules
+- **Same Value Rule:** If a player draws a card of the same value as the previous card, the player wins.
+
+### Controls
+- **Press the UP arrow button** to select Higher
+- **Press the DOWN arrow button** to select Lower
+- **On keyboard:**
+  - ‘H’ or Up key = Higher
+  - ‘L’ or Down key = Lower
+
+### Winning
+Your points will continue to increment for every correct guess. On an incorrect guess, your points will be reset.
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
