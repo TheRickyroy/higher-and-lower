@@ -105,8 +105,8 @@ a:hover,
 }
 
 .card {
-  width: 100px;
-  height: 150px;
+  width: 150px;
+  height: 250px;
   background-color: #ffffff;
   border: 5px solid var(--blue-dark);
   border-radius: 1rem;

@@ -8,6 +8,7 @@
 let currentNumber = Math.floor(Math.random() * 10) + 1;
 let hiddenNumber = Math.floor(Math.random() * 10) + 1;
 let score = 0;
+let playerName = 'Player 1';
 //console.log(`Current number: ${currentNumber} | score : + ${score}`);
 
 
@@ -124,5 +125,3 @@ function startGame() {
 //Highscore
 
 //if score > highScore then highScore = score
-
-
