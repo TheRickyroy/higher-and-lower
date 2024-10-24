@@ -57,6 +57,19 @@ The live project can be found here: <a href="https://therickyroy.github.io/highe
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
+## Ideation 
+
+| **Branding** | **Navigation** | **Game Page**                | **Rules Page** | **Leaderboard Page** |
+|--------------|----------------|------------------------------|----------------|----------------------|
+| Logo         | Navbar         | Game Title                   | Game Rules     | Sign in / Sign up    |
+| Game page    |                | Game Start                   | Report a bug   | Leaderboard          |
+| Git links    |                | Score Tracker                |                |                      |
+| Favicon      |                | Game difficulty              |                |                      |
+|              |                | Modals - Rules / how to play |                |                      |
+
+<hr>
+<p align="right"><a href="#">Back To Top</a></p>
+
 ## UX Design
 
 <hr>
