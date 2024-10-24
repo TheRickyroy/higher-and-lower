@@ -21,6 +21,7 @@ body {
 
 main {
   margin-top: 100px;
+  margin-bottom: 100px;
   padding-bottom: 150px;
 }
 
@@ -82,9 +83,6 @@ a:hover,
 }
 
 /* Sections */
-#hero {
-  background-color: var(--grey);
-}
 
 .section-img {
   width: 100%;
@@ -163,6 +161,20 @@ thead {
   text-transform: uppercase;
   z-index: 2;
 }
+/* Contact */
+.usercard {
+  color: var(--yellow);
+  background-color: var(--blue-dark);
+  width: 250px;
+}
+
+.card-img-top {
+  padding: 1.5rem;
+}
+
+.card-title {
+  margin-top: -1.5rem;
+}
 
 /* Buttons */
 .btn-red {
@@ -173,8 +185,8 @@ thead {
 .btn-social {
   background-color: var(--red);
   color: var(--blue-dark);
-  width: 100px;
-  margin: 0 1.5rem;
+  width: 125px;
+  margin: 0 .5rem;
 }
 
 .btn-contact {
@@ -197,6 +209,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 2;
 }
 
 /* Animation */
@@ -204,14 +217,13 @@ footer {
   width: 100%;
   position: ab;
   top: 25vh;
-  z-index: 1;
+  z-index: 10;
 }
 
 .area {
-  background: var(--grey);
-  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  z-index: 1;
 }
 
 .circles {
@@ -221,6 +233,7 @@ footer {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  z-index: -1;
 }
 
 .circles li {
