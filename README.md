@@ -287,6 +287,49 @@ Your points will continue to increment for every correct guess. On an incorrect 
 
 ## Development
 
+## Deployment
+
+This [GitHub](https://therickyroy.github.io/higher-and-lower/) project was created using the [Code Institute](https://github.com/Code-Institute-Org/ci-full-template) Template, which ensured that all necessary dependencies were included when opening within the designated workspace on [Gitpod IDE](https://www.gitpod.io/).
+
+Set up a repo using this method and template:
+
+1. Login to your GitHub profile.
+2. Navigate to the Code Institute Full Template.
+3. Click the dropdown for 'Use this template' and select "Create a new repository".
+4. Generate the necessary name and description for your repo and click 'Create repository from template'.
+    * Ensure the repository is created within the correct organisation if working as a group.
+    * Set the repository to private or public depending on the group’s requirements.
+5. Navigate to the new repository and click the green 'Open' button with the Gitpod logo.
+    * **IMPORTANT** - This button should only be clicked once to generate the new IDE workspace.
+    * Other group members should fork the repository or clone it locally to prevent overwriting the master IDE workspace.
+6. You can now work on your repository within the Code Institute Gitpod IDE workspace.
+
+### Early Deployment:
+* Once the project repository is created, an early deployment for the live project should be performed.
+* This allows for early and continuous testing using a variety of devices, as well as the Dev Tools available within browsers.
+
+### Cloning and Branching for Group Members:
+* Each group member should fork the repository or clone the repository locally to avoid conflicts.
+* We will create feature branches for each new feature or bug fix (e.g., `feature/user-auth`, `fix/score-bug`).
+* Do not work directly on the `main` branch to ensure the main project remains stable.
+* Push your changes to your own branch and open a pull request (PR) for review before merging into the `main` branch.
+* Assign relevant group members to review PRs and approve them before merging.
+
+### Commit Guidelines:
+* Use clear, concise commit messages, following the group’s established guidelines (e.g., “Add user authentication feature” or “Fix styling issue on mobile view”).
+* Make smaller, frequent commits to ensure code changes can be easily tracked and understood by everyone in the group.
+
+### Pulling Updates Regularly:
+* Regularly pull changes from the `main` branch into your working branch to stay up-to-date with everyone’s changes.
+* Resolve any merge conflicts locally before pushing changes to avoid issues in the `main` branch.
+
+### Continuous Integration:
+* Implement Continuous Integration (CI) tools, such as GitHub Actions, to automate tests or deployments after each merge.
+* Ensure all group members are aware of any test failures or deployment issues after their code is merged.
+
+### Deployment Information:
+* Additional details about the deployment process can be found in the official GitHub Docs or in our project’s README file, which should include steps for deployment to ensure consistency across the group.
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
