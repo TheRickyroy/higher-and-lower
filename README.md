@@ -63,6 +63,47 @@ The live project can be found here: <a href="https://therickyroy.github.io/highe
 
 ## User Stories
 
+### User:
+
+- As a user, I can view the website's Homepage, so that I can play the game it offers.
+- As a user, I want a smooth interactive game to play, so I can have fun and come back and play again.
+- As a user, I can see my current score update in real-time as I make correct or incorrect guesses, so that I can easily keep track of my progress without needing to refresh the game.
+- As a user, I can access the game from both desktop and mobile devices, so that I can play the game seamlessly no matter where I am or what device I am using.
+- As a user, I can find the navigation links, so that I can easily navigate the website.
+- As a user, I want to be able to choose a difficulty, so that I can make the game easier or more challenging.
+- As a user, I can view my high score on the leaderboard, so that I can follow my score and try to beat my personal best.
+- As a user, I would like access to a rules page, so that I know how to play the game.
+- As a user, I want to be able to provide feedback, so that I can recommend future features I would like to see implemented.
+- As a user, I want the option of other game modes, so that I can have multiple options for game play.
+- As a user, I would like some in-game content, so that I can personalise my game experience.
+- As a user, I want to be able to access social links, so that I can see what else the developers have created.
+
+### Owner:
+
+- As the owner, I want the game to be entertaining and run smoothly, so that users want to come back and play again.
+- As the owner, I want the design to be intuitive for users, so they can easily navigate and play the game.
+- As the owner, I want to provide clear rules, so users can easily follow and enjoy the game.
+- As the owner, I want a place to receive feedback, so users can contribute to the features they would most like to see added.
+- As the owner, I want the users to have a leaderboard, so users have the option to review and try and better their scores, to keep them returning.
+- As the owner, I want options for additional in-game content, so that I can monetise.
+- As the owner, I want to include a leaderboard that encourages players to return and try to beat their high score, fostering competition among users.
+- As the owner, I want the game to have minimal load times and run efficiently, so users don’t lose interest while waiting and are more likely to engage.
+- As the owner, I want to design the game to work across various platforms (desktop, mobile, tablet), so it is accessible to the widest audience possible and can be played anywhere.
+- As the owner, I want to ensure the game's design and interface are visually appealing and easy to navigate, so users enjoy the experience when they land on the homepage.
+
+### Developer:
+
+- As the developer, I want to ensure that users can provide feedback, so that we can make adjustments and/or implement new features in the future.
+- As the developer, I want to utilise available frameworks, so I can minimise requirements whilst ensuring responsivity and web standards.
+- As the developer, I want to implement JavaScript, so that I can provide interactivity.
+- As the developer, I want to explore available options to generate game logic, so that I can ensure a fully functioning game, as intended.
+- As a developer, I want to utilise available assets/providers, so I can create an appealing interface and appearance for free.
+- As the developer, I want to ensure the game mechanics (higher/lower guessing) work seamlessly across devices and inputs (keyboard and buttons), so users have a consistent experience.
+- As the developer, I want to make the game accessible (e.g., keyboard navigation, screen reader support, color contrast for visual impairments), so that users with different abilities can play and enjoy the game.
+- As the developer, I want to implement local storage for saving game states and high scores, so users can resume where they left off or track their progress over multiple sessions.
+- As the developer, I want to ensure the game works with touch controls (for mobile and tablet devices), so users can interact with the game intuitively across all platforms.
+- As the developer, I want to implement responsive design principles, so the game looks and functions properly across different screen sizes (mobile, tablet, desktop).
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
