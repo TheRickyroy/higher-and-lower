@@ -88,7 +88,7 @@ Due to failed contrast checks at `AAA Normal` for multiple combinations of colou
 [Colour Contrast Checker](https://colourcontrast.cc/) (also available as extension on [Chrome Web Store](https://chromewebstore.google.com/detail/colour-contrast-checker/nmmjeclfkgjdomacpcflgdkgpphpmnfe)) was used.<br>
 Both the [WebAIM](https://webaim.org/resources/contrastchecker/) and the [Adobe](https://color.adobe.com/create/color-contrast-analyzer) color contrast tools were used to corroborate these results.
 
-![Color Contrasy](/docs/images/contrast.gif)
+![Color Contrast](/docs/images/contrast.gif)
 
 
 <hr>
