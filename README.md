@@ -36,6 +36,7 @@ The live project can be found here: <a href="https://therickyroy.github.io/highe
     - [Footer](#footer)
     - [Links and Buttons](#links-and-buttons)
   - [Resnposive Design](#responsive-design)
+  - [Design](#responsive-design)
 * [Built With](#built-with)
   - [Technology and Languages](#technologies-and-languages)
   - [Libraries and Frameworks](#libraries-and-frameworks)
@@ -80,6 +81,9 @@ Our initial palette was devised using these options in conjunction with inspirat
 - Red (Pantone) `#fe0039` `--red`
 - Rich Black `#0a1627` `--blue-dark`
 - Ruddy Blue `#5aa5d9` `--blue-light`
+
+Additional Color For Higher Button
+- Emerald `#6fcf97` `--green`
 
 ### Contrast
 
