@@ -139,6 +139,8 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 
 ## Imagery
 
+[Logo]
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
@@ -150,7 +152,7 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 ![Mobile game page wireframe](docs/images/Mobile-High-Fidelity-game%20copy%202.png)
 ![Web contact page wireframe](docs/images/High-Fidelity-contact-web.png)
 ![Mobile contact page](docs/images/Mobile-High-Fidelity-contact%20copy.png)
-![Web rules page wireframe](docs/images/High-Fidelity-rules-web%20copy.png)
+![Web rules page wireframe](docs/images/High-Fidelity-rules-web.png)
 ![Mobile rules page wireframe](docs/images/Mobile-High-Fidelity-rules%20copy%202.png)
 
 <hr>
