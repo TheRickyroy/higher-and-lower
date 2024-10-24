@@ -297,6 +297,17 @@ Your points will continue to increment for every correct guess. On an incorrect 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
+## Future Features
+
+### Potential Features to Include:
+- Pattern matching functionality
+- A limited number of tries before the game is over
+- A score-tracking system
+- The ability to play against the computer
+
+<hr>
+<p align="right"><a href="#">Back To Top</a></p>
+
 ### Technology and Languages
 
 ![Static Badge](https://img.shields.io/badge/HTML5-Language-grey?logo=html5&logoColor=%23ffffff&color=%23E34F26)
