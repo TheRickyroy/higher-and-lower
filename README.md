@@ -2,6 +2,7 @@
 
 <p align="center">
 | <a href="https://therickyroy.github.io/higher-and-lower/" target="_blank">Live Project</a> |
+<a href="https://github.com/users/TheRickyroy/projects/1" target="_blank">Project Board</a> |
 </p>
 
 ## Introduction
