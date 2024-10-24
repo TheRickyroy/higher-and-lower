@@ -180,6 +180,8 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 ![Mobile contact page](docs/images/Mobile-High-Fidelity-contact%20copy.png)
 ![Web rules page wireframe](docs/images/High-Fidelity-rules-web.png)
 ![Mobile rules page wireframe](docs/images/Mobile-High-Fidelity-rules%20copy%202.png)
+![Web leaderboard page wireframe](docs/images/High-Fidelity-leaderboard-web.png)
+![Mobile leaderboard page wireframe](docs/images/Mobile-High-Fidelity-leaderboard.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -259,7 +261,7 @@ Your points will continue to increment for every correct guess. On an incorrect 
 ## Leaderboard
 
 #### A page to hold your high score 
-![leaderboard page]()
+![leaderboard page](docs/images/Leaderboard%20page.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -273,6 +275,9 @@ Your points will continue to increment for every correct guess. On an incorrect 
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Footer
+
+#### A footer with links to the developers GitHub profiles
+![Footer](docs/images/Footer.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -416,6 +421,28 @@ Set up a repo using this method and template:
 <p align="right"><a href="#">Back To Top</a></p>
 
 ### Bugs
+
+Feedback:
+
+On mobile it looks like the main logo is clickable for the game as can't see the Higher Lower buttons : we added a link to the logo image.
+
+
+
+Javascript/Logic:
+
+This was our first collaborative project and our first to implement javascript/logic, and this did throw up a number of issues that needed addressing. We initally progressed well with our MVP to get a simple higher or lower number generator game. The premise for this MVP was to have a random number generate and show on screen. Then have an unseen random number generate as our 'guess' number. We also needed to have a way to initialise a 'click' event for if we thought the unseen [hiddenNumber] was higher or lower. Then we would need to check our guees against the current number on screen.
+
+We had no isseus here with the code or logic on the first MVP.
+
+However we did have a few issues when we decided to implement a 'Leaderboard' page:
+
+Issues - bugs.
+
+logic trying to 
+
+
+
+
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
