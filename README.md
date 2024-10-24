@@ -64,6 +64,12 @@ The live project can be found here: <a href="https://therickyroy.github.io/highe
 
 ## User Stories
 
+### External User’s Goal:
+The site’s users want to play an online game that has elements of chance.
+
+### Site Owner's Goal:
+The site’s goal is to provide a challenging game with increasing levels of difficulty to entertain online users.
+
 ### User:
 
 - As a user, I can view the website's Homepage, so that I can play the game it offers.
@@ -174,6 +180,8 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 ![Mobile contact page](docs/images/Mobile-High-Fidelity-contact%20copy.png)
 ![Web rules page wireframe](docs/images/High-Fidelity-rules-web.png)
 ![Mobile rules page wireframe](docs/images/Mobile-High-Fidelity-rules%20copy%202.png)
+![Web leaderboard page wireframe](docs/images/High-Fidelity-leaderboard-web.png)
+![Mobile leaderboard page wireframe](docs/images/Mobile-High-Fidelity-leaderboard.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -253,7 +261,7 @@ Your points will continue to increment for every correct guess. On an incorrect 
 ## Leaderboard
 
 #### A page to hold your high score 
-![leaderboard page]()
+![leaderboard page](docs/images/Leaderboard%20page.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -268,6 +276,9 @@ Your points will continue to increment for every correct guess. On an incorrect 
 
 ## Footer
 
+#### A footer with links to the developers GitHub profiles
+![Footer](docs/images/Footer.png)
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
@@ -279,10 +290,25 @@ Your points will continue to increment for every correct guess. On an incorrect 
 
 ## Responsive Design
 
+[Am I Responsive](https://ui.dev/amiresponsive)
+
+![Contact page](docs/images/home-responsive-layout.png)
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Built With
+
+<hr>
+<p align="right"><a href="#">Back To Top</a></p>
+
+## Future Features
+
+### Potential Features to Include:
+- Pattern matching functionality
+- A limited number of tries before the game is over
+- A score-tracking system
+- The ability to play against the computer
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -316,6 +342,19 @@ Your points will continue to increment for every correct guess. On an incorrect 
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Development
+
+### Ideation 
+
+| **Branding** | **Navigation** | **Game Page**                | **Rules Page** | **Leaderboard Page** |
+|--------------|----------------|------------------------------|----------------|----------------------|
+| Logo         | Navbar         | Game Title                   | Game Rules     | Sign in / Sign up    |
+| Game page    |                | Game Start                   | Report a bug   | Leaderboard          |
+| Git links    |                | Score Tracker                |                |                      |
+| Favicon      |                | Game difficulty              |                |                      |
+|              |                | Modals - Rules / how to play |                |                      |
+
+<hr>
+<p align="right"><a href="#">Back To Top</a></p>
 
 ## Deployment
 
