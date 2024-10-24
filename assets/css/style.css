@@ -21,6 +21,7 @@ body {
 
 main {
   margin-top: 100px;
+  padding-bottom: 150px;
 }
 
 ul {
@@ -105,8 +106,8 @@ a:hover,
 }
 
 .card {
-  width: 100px;
-  height: 150px;
+  width: 150px;
+  height: 250px;
   background-color: #ffffff;
   border: 5px solid var(--blue-dark);
   border-radius: 1rem;
@@ -176,6 +177,13 @@ thead {
   margin: 0 1.5rem;
 }
 
+.btn-contact {
+  background-color: var(--red);
+  color: var(--blue-dark);
+  width: 75px;
+  margin: 0.5rem .5rem;
+}
+
 .btn:hover {
   background-color: var(--yellow);
   color: var(--blue-dark);
@@ -185,7 +193,8 @@ thead {
 footer {
   background-color: var(--blue-dark);
   padding-top: 1.5rem;
-  position: absolute;
+  margin-top: 1.5rem;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -193,7 +202,7 @@ footer {
 /* Animation */
 .context {
   width: 100%;
-  position: absolute;
+  position: ab;
   top: 25vh;
   z-index: 1;
 }

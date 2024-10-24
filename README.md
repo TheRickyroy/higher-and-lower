@@ -2,6 +2,7 @@
 
 <p align="center">
 | <a href="https://therickyroy.github.io/higher-and-lower/" target="_blank">Live Project</a> |
+<a href="https://github.com/users/TheRickyroy/projects/1" target="_blank">Project Board</a> |
 </p>
 
 ## Introduction
@@ -36,6 +37,7 @@ The live project can be found here: <a href="https://therickyroy.github.io/highe
     - [Footer](#footer)
     - [Links and Buttons](#links-and-buttons)
   - [Resnposive Design](#responsive-design)
+  - [Design](#responsive-design)
 * [Built With](#built-with)
   - [Technology and Languages](#technologies-and-languages)
   - [Libraries and Frameworks](#libraries-and-frameworks)
@@ -62,6 +64,34 @@ The live project can be found here: <a href="https://therickyroy.github.io/highe
 
 ## User Stories
 
+User:
+* As a user, I can view the website's Homepage, so that I can play the game it offers.
+* As a user, I want a smooth interactive game to play, so I can have fun and come back and play again.
+* As a user, I can find the navigation links, so that I can easily navigate the website.
+* As a user, I want to be able to choose a difficulty, so that I can make the game easier or more challenging.
+* As a user,  I can view my high score on the leaderboard, so that I can follow my score and try to beat my personal best.
+* As a user, I would like access to a rules page, so that I know how to play the game.
+* As a user, I want to be able to provide feedback, so that I can recommend future features I would like to see implemented.
+* As a user, I want the option of other game modes, so that I can have multiple options for game play.
+* As a user, I would like some in-game content, so that I can personalise my game experience 
+* As a user, I want to be able to access social links, so that I can see what else the developers have created.
+
+Owner:
+* As the owner, I want the game to be entertaining and run smoothly, so that users want to come back and play again.
+* As the owner, I want the design to be intuitive for users, so they can easily navigate and play the game.
+* As the owner, I want to provide clear rules, so users can easily follow and enjoy the game.
+* As the owner, I want a place to receive feedback, so users can contribute to the features they would most like to see added.
+* As the owner, I want the users to have a leaderboard, so users have the option to review and try and better their scores, to keep them returning.
+* As the owner, I want options for additional in-game content, so that I can monetise
+
+Developer:
+* As the developer, I want to ensure that users can provide feedback, so that we can make adjustments and/or implement new features in the future.
+* As the developer, I want to utilise available frameworks, so I can minimise requirements whilst ensuring responsivity and web standards.
+* As the developer, I want to implement JavaScript, so that I can provide interactivity.
+* As the developer, I want to explore available options to generate game logic, so that I can ensure a fully functioning game, as intended.
+* As a developer, I want to utilise available assets/providers, so I can create an appealing interface and appearance for free
+
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
@@ -80,6 +110,9 @@ Our initial palette was devised using these options in conjunction with inspirat
 - Red (Pantone) `#fe0039` `--red`
 - Rich Black `#0a1627` `--blue-dark`
 - Ruddy Blue `#5aa5d9` `--blue-light`
+
+Additional Color For Higher Button
+- Emerald `#6fcf97` `--green`
 
 ### Contrast
 
@@ -106,11 +139,28 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Imagery
+#### Background
+[Halloween Images for background](https://www.freepik.com/free-vector/halloween-neon-sign-collection_5543415.htm#from_view=detail_alsolike)
+
+#### Favicon 
+![Favicon](docs/images/favicon-48x48.png)
+
+#### Logo
+[Logo](docs/images/logo.webp)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Wireframes
+
+![Web home page wireframe](docs/images/High-Fidelity-home-web.png)
+![Mobile home page wireframe](docs/images/Mobile-High-Fidelity-home%20copy.png)
+![Web game page wireframe](docs/images/High-Fidelity-game-web.png)
+![Mobile game page wireframe](docs/images/Mobile-High-Fidelity-game%20copy%202.png)
+![Web contact page wireframe](docs/images/High-Fidelity-contact-web.png)
+![Mobile contact page](docs/images/Mobile-High-Fidelity-contact%20copy.png)
+![Web rules page wireframe](docs/images/High-Fidelity-rules-web.png)
+![Mobile rules page wireframe](docs/images/Mobile-High-Fidelity-rules%20copy%202.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -146,6 +196,28 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Rules
+
+### Objective
+The goal is to correctly guess whether the next card drawn will be higher or lower than the current card.
+
+### Gameplay Instructions
+- **First Card:** The dealer reveals the top card from the shuffled deck and places it face up.
+- **Guessing:** The player must guess whether the next card drawn will be higher or lower than the revealed card.
+  - If the guess is correct, they score a point and continue playing.
+  - If incorrect, they score no points, and your score resets.
+
+### Special Rules
+- **Same Value Rule:** If a player draws a card of the same value as the previous card, the player wins.
+
+### Controls
+- **Press the UP arrow button** to select Higher
+- **Press the DOWN arrow button** to select Lower
+- **On keyboard:**
+  - ‘H’ or Up key = Higher
+  - ‘L’ or Down key = Lower
+
+### Winning
+Your points will continue to increment for every correct guess. On an incorrect guess, your points will be reset.
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -215,6 +287,19 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Testing
+
+### Lighthouse results
+#### Homepage
+![homepage web lighthouse report](docs/images/Lighthouse%20web%20home.png)
+#### Game page
+![game page web lighthouse report](docs/images/Lighthouse%20web%20game.png)
+#### Contact page
+![contact page web lighthouse report](docs/images/Lighthouse%20web%20contact.png)
+#### Rules page
+![rules page web lighthouse report](docs/images/Lighthouse%20web%20rules.png)
+
+#### Leaderboard page
+![Leaderboard page web lighthouse report](docs/images/Lighthouse%20web%20leaderboard.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
