@@ -36,6 +36,7 @@ The live project can be found here: <a href="https://therickyroy.github.io/highe
     - [Footer](#footer)
     - [Links and Buttons](#links-and-buttons)
   - [Resnposive Design](#responsive-design)
+  - [Design](#responsive-design)
 * [Built With](#built-with)
   - [Technology and Languages](#technologies-and-languages)
   - [Libraries and Frameworks](#libraries-and-frameworks)
@@ -81,6 +82,9 @@ Our initial palette was devised using these options in conjunction with inspirat
 - Rich Black `#0a1627` `--blue-dark`
 - Ruddy Blue `#5aa5d9` `--blue-light`
 
+Additional Color For Higher Button
+- Emerald `#6fcf97` `--green`
+
 ### Contrast
 
 Due to failed contrast checks at `AAA Normal` for multiple combinations of colours, we were careful to only use these combinations of colors within elements that adhered to their contrast pass states. 
@@ -88,7 +92,7 @@ Due to failed contrast checks at `AAA Normal` for multiple combinations of colou
 [Colour Contrast Checker](https://colourcontrast.cc/) (also available as extension on [Chrome Web Store](https://chromewebstore.google.com/detail/colour-contrast-checker/nmmjeclfkgjdomacpcflgdkgpphpmnfe)) was used.<br>
 Both the [WebAIM](https://webaim.org/resources/contrastchecker/) and the [Adobe](https://color.adobe.com/create/color-contrast-analyzer) color contrast tools were used to corroborate these results.
 
-![Color Contrasy](/docs/images/contrast.gif)
+![Color Contrast](/docs/images/contrast.gif)
 
 
 <hr>
@@ -111,6 +115,15 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Wireframes
+
+![Web home page wireframe](docs/images/High-Fidelity-home-web.png)
+![Mobile home page wireframe](docs/images/Mobile-High-Fidelity-home%20copy.png)
+![Web game page wireframe](docs/images/High-Fidelity-game-web.png)
+![Mobile game page wireframe](docs/images/Mobile-High-Fidelity-game%20copy%202.png)
+![Web contact page wireframe](docs/images/High-Fidelity-contact-web.png)
+![Mobile contact page](docs/images/Mobile-High-Fidelity-contact%20copy.png)
+![Web rules page wireframe](docs/images/High-Fidelity-rules-web%20copy.png)
+![Mobile rules page wireframe](docs/images/Mobile-High-Fidelity-rules%20copy%202.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>

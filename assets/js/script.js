@@ -8,6 +8,7 @@
 let currentNumber = Math.floor(Math.random() * 10) + 1;
 let hiddenNumber = Math.floor(Math.random() * 10) + 1;
 let score = 0;
+let playerName = 'Player 1';
 //console.log(`Current number: ${currentNumber} | score : + ${score}`);
 
 
@@ -43,7 +44,7 @@ document.addEventListener('keydown', function(event) {
     console.log(`New current number: ${currentNumber}`);
 
     document.getElementById('current-card').innerText = `${currentNumber}`;
-    document.getElementById('score').innerText = `${score}`;
+    document.getElementById('score').innerText = `Score: ${score}`;
 });
 
 // Button decide - same logic as before but needed to make it a function then call it with the click function below
@@ -79,7 +80,7 @@ function buttonGuess(guessHigh) {
   console.log(`New current number: ${currentNumber}`);
 
   document.getElementById('current-card').innerText = `${currentNumber}`;
-  document.getElementById('score').innerText = `${score}`;
+  document.getElementById('score').innerText = `Score: ${score}`;
 };
 
 document.getElementById('higher-btn').addEventListener('click', function() {
@@ -124,5 +125,3 @@ function startGame() {
 //Highscore
 
 //if score > highScore then highScore = score
-
-
