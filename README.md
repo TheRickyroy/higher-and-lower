@@ -64,6 +64,12 @@ The live project can be found here: <a href="https://therickyroy.github.io/highe
 
 ## User Stories
 
+### External User’s Goal:
+The site’s users want to play an online game that has elements of chance.
+
+### Site Owner's Goal:
+The site’s goal is to provide a challenging game with increasing levels of difficulty to entertain online users.
+
 ### User:
 
 - As a user, I can view the website's Homepage, so that I can play the game it offers.
