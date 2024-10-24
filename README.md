@@ -176,6 +176,10 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 
 ## Navigation 
 
+#### Working links to navigate through the website
+
+![Navbar](docs/images/Navbar.png)
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
@@ -185,11 +189,18 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Home
+#### A welcome page
+
+![Homepage](docs/images/Homepage.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Game
+
+#### The page to play the developed game
+
+![Game page](docs/images/Game%20page.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -223,10 +234,16 @@ Your points will continue to increment for every correct guess. On an incorrect 
 
 ## Leaderboard
 
+#### A page to hold your high score 
+![leaderboard page]()
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Contact
+
+#### A page to provide feedback
+![Contact page](docs/images/Contact%20page.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
