@@ -223,7 +223,6 @@ footer {
 /* Animation */
 .context {
   width: 100%;
-  position: ab;
   top: 25vh;
   z-index: 10;
 }
