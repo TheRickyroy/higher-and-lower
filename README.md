@@ -279,6 +279,10 @@ Your points will continue to increment for every correct guess. On an incorrect 
 
 ## Responsive Design
 
+[Am I Responsive](https://ui.dev/amiresponsive)
+
+![Contact page](docs/images/home-responsive-layout.png)
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
