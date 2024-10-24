@@ -353,6 +353,13 @@ Your points will continue to increment for every correct guess. On an incorrect 
 | Favicon      |                | Game difficulty              |                |                      |
 |              |                | Modals - Rules / how to play |                |                      |
 
+### Collaboration Tools
+
+[Google Drive](https://drive.google.com/) - shared folder for resources, documents and links  
+[Slack](https://slack.com/) - Voice calls, messaging  
+[GitHub](https://github.com/) - Repo, project board  
+[Magma](https://magma.com) - Pre-balsamiq wireframe planning 
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
