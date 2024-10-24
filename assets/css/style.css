@@ -165,10 +165,18 @@ thead {
   z-index: 2;
 }
 /* Contact */
-.pfp {
-  width: 150px;
-  height: 150px;
-  margin-bottom: 1.5rem;
+.usercard {
+  color: var(--yellow);
+  background-color: var(--blue-dark);
+  width: 250px;
+}
+
+.card-img-top {
+  padding: 1.5rem;
+}
+
+.card-title {
+  margin-top: -1.5rem;
 }
 
 /* Buttons */
