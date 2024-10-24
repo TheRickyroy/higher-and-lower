@@ -174,6 +174,8 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 ![Mobile contact page](docs/images/Mobile-High-Fidelity-contact%20copy.png)
 ![Web rules page wireframe](docs/images/High-Fidelity-rules-web.png)
 ![Mobile rules page wireframe](docs/images/Mobile-High-Fidelity-rules%20copy%202.png)
+![Web leaderboard page wireframe](docs/images/High-Fidelity-leaderboard-web.png)
+![Mobile leaderboard page wireframe](docs/images/Mobile-High-Fidelity-leaderboard.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -253,7 +255,7 @@ Your points will continue to increment for every correct guess. On an incorrect 
 ## Leaderboard
 
 #### A page to hold your high score 
-![leaderboard page]()
+![leaderboard page](docs/images/Leaderboard%20page.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
@@ -267,6 +269,9 @@ Your points will continue to increment for every correct guess. On an incorrect 
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Footer
+
+#### A footer with links to the developers GitHub profiles
+![Footer](docs/images/Footer.png)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
