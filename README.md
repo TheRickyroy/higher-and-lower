@@ -138,8 +138,14 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Imagery
+#### Background
+[Halloween Images for background](https://www.freepik.com/free-vector/halloween-neon-sign-collection_5543415.htm#from_view=detail_alsolike)
 
-[Logo]
+#### Favicon 
+![Favicon](docs/images/favicon-48x48.png)
+
+#### Logo
+[Logo](docs/images/logo.webp)
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
