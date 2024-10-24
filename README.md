@@ -221,6 +221,10 @@ We selected a pair of fonts that adopt the retro gaming style whilst maintaining
 
 ## Rules
 
+The rules page provides clear instructions on how to play the game, including guessing if the next card is higher or lower, scoring, special rules, controls, and how to win.
+
+![Rules page](docs/images/Rules%20page.png)
+
 ### Objective
 The goal is to correctly guess whether the next card drawn will be higher or lower than the current card.
 
