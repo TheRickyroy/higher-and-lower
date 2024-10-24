@@ -445,12 +445,34 @@ However we did have a few issues when we decided to implement a 'Leaderboard' pa
 
 Issues - bugs.
 
-logic trying to 
+logic trying to bring both game page and leaderboard logic together
 
 ## Final Validation
 
 ### Fail State
 Upon performing a final validation there were errors in both HTML and CSS.
+
+| No. | Bug | Solved | Fix | Solution Credit | Commit no. |
+| --- | ---------------- | ---- | ------------- | -------------- | ------------|
+| 1   | No number was showing when the game page loaded | Yes | There was a conflict with the game starting when it loaded as a page - we needed to get the number to show but it was blank. The solution was to get the event to trigger as the page load and then trigger a 'start game' function, this would also display the scores etc with a reset to zero. |    [W3s](https://www.w3schools.com/js/js_scope.asp)| 2d82438 |
+| 2   | Couldn't get the hidden number to renew. So the hidden number would generate once and then stick | Yes | We took out the code for the Math.random for hiddenNumber and added it to the top. This menat the function for generating the conditions would run through but then not generate the new [hiddenNumber] as it was out of the function scope. |    [W3s](https://www.w3schools.com/jsref/event_onload.asp)| 2d82438 |
+| 3   | Leaderboard script | Yes  | We didn't know if the leaderboard script needed to be on a separate file to trigger the event - After discussing this issue with colleagues and then using perplexity as a team member we began to realise these needed to be separate and the pages need to be linked to their respective html. |  Chat with perplexity to check understanding [socratic questioning]  [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-execute-after-page-load-in-javascript/), [stack overflow](https://stackoverflow.com/questions/67885803/how-to-listen-for-event-that-next-page-has-started-to-load) | 74cbe67 |
+|  4  | HighScore | Yes | We couldn't get the leader board to update - we needed to have an end to the game so as to record the highscore and show it. We made a quick function and added the highScore variable to store this. We had to do this in order to get the logic to work with the leaderboard as the phase 1 mvp was simply a game that keeps going so thus wouldn't be able to take info into the leaderboard | [Stackoverflow](https://stackoverflow.com/questions/64113076/javascript-high-score-update-regardless-of-whether-new-score-is-higher-or-not) | 74cbe67 |
+| 5   | Wouldn't pull through highscore to leaderboard | Yes | After many many discussions with perplexity and reading relevant resources as to why we still couldn't pull the high score through to the leaderboard - it was because the html link had a typo!| Eventually saw the problem! | 74cbe67 |
+
+
+There were a few instance that we discussed elements with perplexity in a socratic questioning way, making sure that what we discussed was reflected in our level here. Some parts became advanced in order to solve the leaderboard in terms of syntax however the understadning behind these few bits was sound, and made sense.
+
+
+JavaScript Validation
+
+[JSHint](https://jshint.com/) was used to validate the JavaScript code added to the project. 
+
+| Page | Screenshot | Errors | Warnings |
+| ---- | ---------- | ------ | -------- |
+| script.js | ![script file](docs/images/jshint-validation-2.webp) | none | none |
+| leaderboard.js | ![leaderboard](docs/images/jshint-validation-1.webp) | none | none |
+
 
 ![failed HMTL](docs/images/fail-html.png)
 ![failed HMTL](docs/images/fail-css.png)
@@ -462,6 +484,7 @@ These errors were corrected for the final code commit.
 ![failed HMTL](docs/images/success-css.png)
 
 
+
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
@@ -471,18 +494,68 @@ These errors were corrected for the final code commit.
 <p align="right"><a href="#">Back To Top</a></p>
 
 ## Code
+Reference Code Resources
+https://www.w3schools.com
+https://github.com/TheRickyroy/astronauts-for-autism
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+CSS Debug Border
+
+Javascript tutorial
+
+https://stackoverflow.com/questions/16089421/how-do-i-detect-keypresses-in-javascript
+
+https://stackoverflow.com/questions/70754748/i-am-getting-a-error-in-node-js-which-is-of-require-stack/70812337#:~:text=Whenever%20you%20have%20a%20'MODULE_NOT_FOUND,that%20is%20referenced%20in%20package. - node structure for console.log in terminal
+
+https://www.educative.io/answers/how-to-detect-the-key-events-in-javascript - realising the console doesn’t take from the DOM for testing
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick_html - onclick
+https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event - event types
+https://www.educative.io/answers/how-to-detect-the-key-events-in-javascript -event types
+https://www.w3schools.com/js/js_scope.asp - function scope
+Perplexity AI for socratic questioning and helping with cleaning up code when it became over engineered.
+jshint.com - validation for javascript
+https://stackoverflow.com/questions/64113076/javascript-high-score-update-regardless-of-whether-new-score-is-higher-or-not - highscore
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
 ### Media
+Fonts & Icons
+https://fonts.google.com/specimen/Silkscreen
+https://fonts.google.com/specimen/Oxanium
+https://fontawesome.com/kits/550fe83872/setup
+Updating Favicon Article - Real Favicon Generator
+Logo Design Inspiration
+Halloween style image (https://www.freepik.com/free-vector/halloween-neon-sign-collection_5543415.htm#from_view=detail_alsolike)
 
 [Background animations](https://codepen.io/mohaiman/pen/MQqMyo)
+
+Colours
+https://color.adobe.com/create/color-wheel
+
+https://coolors.co/
+
+https://webaim.org/resources/contrastchecker/
+
+Additional Software
+Balsamiq
+Affinity Photo
+Affinity Design
+
+GitHub Stuff
+README Contributors
+Stashing Changes
+Commit Messages
+
+Form Dump
+https://formdump.codeinstitute.net/ 
+
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
 
 ### Acknolwedgements
+
+Heather Bailey - commented on interactivity for phase 1 of game logic: Looked good and liked the playability, wasn’t sure what the second card with question mark was or did. Would like to see something on leaderboard. Phase 2 liked the leaderboard and gave it a competitive element to make her play more.
 
 <hr>
 <p align="right"><a href="#">Back To Top</a></p>
